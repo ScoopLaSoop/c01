@@ -6,11 +6,11 @@
 /*   By: luproven <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/12 16:09:39 by luproven          #+#    #+#             */
-/*   Updated: 2022/09/12 16:12:19 by luproven         ###   ########.fr       */
+/*   Updated: 2022/09/13 14:01:48 by luproven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
 	int	x;
 	int	y;

@@ -1,16 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft_sort_int_tab.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: luproven <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/12 16:07:46 by luproven          #+#    #+#             */
-/*   Updated: 2022/09/13 14:01:02 by luproven         ###   ########.fr       */
+/*   Created: 2022/09/13 14:03:52 by luproven          #+#    #+#             */
+/*   Updated: 2022/09/13 14:14:13 by luproven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ultimate_ft(int *********nbr)
+void	ft_sort_int_tab(int *tab, int size)
 {
-	*********nbr = 42;
+	int	x;
+	int	y;
+
+	x = 0;
+	while ((x + 1) < size)
+	{
+		if (tab[x] > tab[x + 1])
+		{
+			y = tab[x];
+			tab[x] = tab[x + 1];
+			tab[x + 1] = y;
+			x = 0;
+		}
+		else
+			x++;
+	}
 }

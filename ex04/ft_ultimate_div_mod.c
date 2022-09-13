@@ -6,11 +6,11 @@
 /*   By: luproven <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/12 16:16:13 by luproven          #+#    #+#             */
-/*   Updated: 2022/09/12 17:15:48 by luproven         ###   ########.fr       */
+/*   Updated: 2022/09/13 14:02:41 by luproven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_ultimate_div_mod(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	x;
 
